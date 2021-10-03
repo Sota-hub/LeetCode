@@ -29,6 +29,8 @@ const convert = (s, numRows) => {
   return answer;
 };
 
+console.log(convert("PAYPALISHIRING", 1));
+console.log(convert("PAYPALISHIRING", 2));
 console.log(convert("PAYPALISHIRING", 3));
 console.log(convert("PAYPALISHIRING", 4));
 console.log(convert("PAYPALISHIRING", 5));
