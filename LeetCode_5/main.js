@@ -41,8 +41,8 @@ const longestPalindrome = (s) => {
   return palindrome;
 };
 
-console.log(longestPalindrome("babad"));
-console.log(longestPalindrome("cbbd"));
-console.log(longestPalindrome("a"));
-console.log(longestPalindrome("ac"));
-console.log(longestPalindrome("ccc"));
+console.log(longestPalindrome("babad")); //bab
+console.log(longestPalindrome("cbbd")); //bb
+console.log(longestPalindrome("a")); //a
+console.log(longestPalindrome("ac")); //a
+console.log(longestPalindrome("ccc")); //ccc
