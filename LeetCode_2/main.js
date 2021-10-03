@@ -17,6 +17,7 @@ const addTwoNumbers = (l1, l2) => {
   }
   return answer;
 };
+
 console.log(addTwoNumbers([3, 5, 7], [2, 4, 6]));
 console.log(addTwoNumbers([0], [0]));
 console.log(addTwoNumbers([9, 9, 9, 9], [9, 9, 9, 9]));
