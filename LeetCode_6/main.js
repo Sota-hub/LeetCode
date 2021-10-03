@@ -16,7 +16,7 @@ const convert = (s, numRows) => {
     for (let j = i; j < s.length; j += oneBlock) {
       // Loops loop have 2 letters in one block (except First loop & Last)
       // Go to the next block of numbers j, then decrese 2 * numbers row
-      const secondLetters = j + oneBlock - 2 * i;
+      const secondLetters = oneBlock + j - 2 * i;
 
       // Add without second letters
       answer += s[j];
