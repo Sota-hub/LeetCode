@@ -56,7 +56,7 @@ const intToRoman = (num) => {
   };
 
   // Render roman function
-  const changeToRoman = (num) => {
+  const romanToInt = (num) => {
     let romanizedNum = "";
     for (const i of Object.keys(roman)) {
       const x = Math.floor(num / roman[i]);
@@ -68,7 +68,7 @@ const intToRoman = (num) => {
 
   // Create romans array
   const romans = [];
-  for (let i = 1000; i > 0; i--) {
+  for (let i = 100; i > 0; i--) {
     romans.push(changeToRoman(i));
   }
 
